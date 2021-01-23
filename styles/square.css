@@ -1,0 +1,98 @@
+.square {
+    background-color: rgba(6, 53, 71, 0.207);
+    border-radius: 100%;
+    height: 50px;
+    user-select: none;
+
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+/* .table {
+    height: 50vh;
+} */
+
+.square-human-filled {
+    background-color: rgba(255, 0, 0, 0.611);
+
+    animation-name: humanFill;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes humanFill {
+    0% {
+        background-color: rgba(6, 53, 71, 0.207);
+        opacity: 1;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
+.square-ai-filled {
+    background-color: rgba(0, 0, 0, 0.755);
+
+    animation-name: aiFill;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes aiFill {
+    0% {
+        background-color: rgba(6, 53, 71, 0.207);
+        opacity: 1;
+    }
+    50% {
+        background-color: rgba(6, 53, 71, 0.207);
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+
+/* Small devices (landscape phones, 544px and up) */
+/* @media (min-width: 544px) {  
+    .square {
+        border: 5px solid rgba(6, 53, 71, 0.207);
+        height: 50px;
+        width: 50px;
+    }
+} */
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .square {
+        height: 70px;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .square {
+        height: 100px;
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .square {
+        height: 120px;
+    }
+}
