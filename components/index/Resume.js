@@ -3,7 +3,7 @@ import Link from "next/link";
 const Resume = () => {
     return (
         <div className="container">
-            <h3 className="typing-animation-text">
+            <h3 className="job-title-header">
             Hi! I'm Kevin Tsai. I'm a front-end web developer and software engineer. 😊</h3>
             <section className="about-me">
                 <h4>About me</h4>
@@ -52,8 +52,8 @@ const Resume = () => {
                     <li>Snake Game in Excel
                         <ul>
                             <li>
-                                Fascinated by data and all that it reveals, I decided to program the snake game in Excel (using VBA code) and 
-                                connect the data from my play history to a dashboard. I showcase this game in the following YouTube video, 
+                                Fascinated by data and all that it reveals, I programmed the snake game in Excel (for fun, using VBA code) and 
+                                connected the data from my play history to a dashboard. I showcase this game in the following YouTube video, 
                                 highlighting some of the interesting features of Excel!
                             </li>
                             <li>
