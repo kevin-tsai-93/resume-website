@@ -12,10 +12,7 @@ const NavigationBar = () => {
             <Nav.Link href="/connect4">Connect 4</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/form">Beautiful Form</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/blog">Newspaper Blog</Nav.Link>            
+            <Nav.Link href="/newspaper">Newspaper Template</Nav.Link>            
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>

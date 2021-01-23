@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import NewspaperBlog from "../components/portfolio/NewspaperBlog";
+import NewspaperBlog from "../components/portfolio/NewspaperTemplate";
 
 const Blog = () => {
     return (
