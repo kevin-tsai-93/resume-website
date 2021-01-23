@@ -1,5 +1,1 @@
-# resume
-# resume-website
-# resume-website
-# resume-website
-# resume-website
+These are the files used to create this resume website.
