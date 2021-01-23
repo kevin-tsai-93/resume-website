@@ -31,7 +31,7 @@ const Resume = () => {
                                 <Link href="/connect4"><a>See app</a></Link>
                             </li>
                             <li>
-                                <a href="/" target="_blank">See code</a>
+                                <a href="https://github.com/kevin-tsai-93/resume-website/blob/main/components/portfolio/connect4/minimax.js" target="_blank">See code</a>
                             </li>
                         </ul>
                     </li>
@@ -45,7 +45,7 @@ const Resume = () => {
                                 <Link href="/newspaper"><a>See app</a></Link>
                             </li>
                             <li>
-                                <a href="/" target="_blank">See code</a>
+                                <a href="https://github.com/kevin-tsai-93/resume-website/blob/main/components/portfolio/NewspaperTemplate.js" target="_blank">See code</a>
                             </li>
                         </ul>
                     </li>
