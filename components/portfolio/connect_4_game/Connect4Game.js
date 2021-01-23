@@ -1,8 +1,8 @@
-import Board from './connect4/Board';
+import Board from './connect4_helper_files/Board';
 import React, { Component } from 'react';
-import minimax from './connect4/minimax';
-import deepCopy2DArray from './connect4/deepCopy2DArray';
-import new2DArray from './connect4/new2DArray';
+import minimax from './connect4_helper_files/minimax';
+import deepCopy2DArray from './connect4_helper_files/deepCopy2DArray';
+import new2DArray from './connect4_helper_files/new2DArray';
 
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.

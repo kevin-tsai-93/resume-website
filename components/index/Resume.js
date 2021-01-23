@@ -31,7 +31,7 @@ const Resume = () => {
                                 <Link href="/connect4"><a>Play game</a></Link>
                             </li>
                             <li>
-                                <a href="https://github.com/kevin-tsai-93/resume-website/blob/main/components/portfolio/connect4/minimax.js" target="_blank">See code</a>
+                                <a href="https://github.com/kevin-tsai-93/resume-website/tree/main/components/portfolio/connect_4_game" target="_blank">See code</a>
                             </li>
                         </ul>
                     </li>
@@ -45,7 +45,7 @@ const Resume = () => {
                                 <Link href="/newspaper"><a>Read newspaper</a></Link>
                             </li>
                             <li>
-                                <a href="https://github.com/kevin-tsai-93/resume-website/blob/main/components/portfolio/NewspaperTemplate.js" target="_blank">See code</a>
+                                <a href="https://github.com/kevin-tsai-93/resume-website/tree/main/components/portfolio/newspaper_template" target="_blank">See code</a>
                             </li>
                         </ul>
                     </li>
@@ -54,7 +54,7 @@ const Resume = () => {
                             <li>
                                 Fascinated by data and all that it reveals, I decided to program the snake game in Excel (using VBA code) and 
                                 connect the data from my play history to a dashboard. I showcase this game in the following YouTube video, 
-                                highlighting some of the interesting features of Excel.
+                                highlighting some of the interesting features of Excel!
                             </li>
                             <li>
                                 <Link href="/snake"><a>Watch video</a></Link>
