@@ -8,7 +8,7 @@ const Resume = () => {
             <section className="about-me">
                 <h4>About me</h4>
                 <p>Hi! I'm Kevin Tsai. Your friendly front-end web developer and software engineer. I enjoy building content on the web and solving problems through code. 
-                    I also have a math-heavy and data-analytical background, having obtained both an M.S. and B.S. in Statistics. 
+                    I also hold a math-heavy and data-analytical background, having obtained both an M.S. and B.S. in Statistics. 
                     Feel free to check out my portfolio. Hope to hear from you soon!</p>
             </section>
             <section className="contact-info">
