@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/resume.css';
 import '../styles/responsive-font.css';
 import '../styles/square.css';
 import '../styles/connect4game.css';
