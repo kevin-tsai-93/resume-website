@@ -1,0 +1,188 @@
+.header {
+    height: 70vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+    position: relative;
+}
+
+    .header-primary {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+        .header-primary-main {
+            display: block;
+            font-weight: 700;
+            animation: moveInFromLeft 1s ease-out;
+        }
+
+        .header-primary-sub {
+            display: block;
+            font-weight: lighter;
+            animation: moveInFromRight 1s ease-out;
+        }
+
+.about-me {
+    color: #fff;
+    background-image: linear-gradient(to right bottom, rgba(40, 180, 133, 0.8), rgba(40, 119, 180, 0.8));
+    position: relative;
+    padding: 1em;
+}
+    .about-me-title {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .about-me-description {
+        text-align: center;
+        font-weight: 200;
+    }
+
+.contact-info {
+    color: #fff;
+    background-image: linear-gradient(to right bottom, rgba(40, 119, 180, 0.8), rgba(40, 75, 180, 0.8));
+    position: relative;
+    padding: 1em;
+}
+    .contact-info-title {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .contact-info-description {
+        text-align: center;
+        font-weight: 400;
+    }
+
+        .contact-info-description-email,
+        .contact-info-description-linkedin {
+            display: block;
+        }
+
+.projects {
+    color: #fff;
+    background-image: linear-gradient(to right bottom, rgba(40, 75, 180, 0.8), rgba(52, 40, 180, 0.8));
+    position: relative;
+    padding: 1em;
+}
+    .projects-title {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .projects-list-connect4-title, 
+    .projects-list-excel-title {
+        font-weight: 400;
+    }
+
+    .projects-list-connect4-info-description, 
+    .projects-list-excel-info-description {
+        font-weight: 200;
+    }
+
+    .projects-list-connect4-info-play,
+    .projects-list-connect4-info-code,
+    .projects-list-excel-info-video {
+        text-align: center;
+    }
+
+.toolkit {
+    color: #fff;
+    background-image: linear-gradient(to right bottom, rgba(52, 40, 180, 0.8), rgba(91, 40, 180, 0.8));
+    position: relative;
+    padding: 1em;
+}
+    .toolkit-title {
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .toolkit-list {
+        text-align: center;
+        font-weight: 200;
+    }
+
+.education {
+    color: #fff;
+    background-image: linear-gradient(to right bottom, rgba(91, 40, 180, 0.8), rgba(117, 40, 180, 0.8));
+    position: relative;
+    padding: 1em;
+}
+    .education-title {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .education-list {
+        text-align: center;
+        font-weight: 200;
+    }
+
+.certificates {
+    color: #fff;
+    background-image: linear-gradient(to right bottom, rgba(117, 40, 180, 0.8), rgba(143, 40, 180, 0.8));
+    position: relative;
+    padding: 1em;
+}
+    .certificates-title {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .certificates-list {
+        text-align: center;
+        font-weight: 200;
+    }
+
+.btn, .btn:link, .btn:visited {
+    text-decoration: none;
+    transition: all 0.8s;
+    position: relative;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn:hover {
+    font-size: 1.5rem;
+    color: #fff;
+}
+    /* .btn:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; 
+    } */
+
+
+.btn-white {
+    color: #fff; 
+}
+
+@keyframes moveInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10rem); 
+    }
+    80% {
+      transform: translateX(1rem); 
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0); 
+    } 
+}
+
+@keyframes moveInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem); 
+    }
+    80% {
+        transform: translateX(-1rem); 
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0); 
+    } 
+}
