@@ -193,7 +193,7 @@ class Connect4Game extends React.Component {
         // setup the display
 
         const horizontalRule = <hr style={{visibility: "hidden", marginBottom: "0"}} />;
-        const button = <button style={{outline: "none", userSelect: "none"}} onClick={this.handleReset}>Reset</button>;
+        const button = <button style={{outline: "none", userSelect: "none", borderRadius: "10%"}} onClick={this.handleReset}>Reset</button>;
         let greeting = <h5 className="d-flex justify-content-center">Good luck!</h5>;
         let board = <div className="d-flex justify-content-center"><Board squares={this.state.squares} onClick={this.handleClick} /></div>;
 
@@ -202,9 +202,9 @@ class Connect4Game extends React.Component {
         }
 
         if (this.state.winner === HUMAN) {
-            greeting = <h5 className="d-flex justify-content-center fade-in">🎉 Congratulations! You won! 🎉</h5>;
+            greeting = <h5 className="d-flex justify-content-center fade-in" style={{color: "darkgreen"}}>🎉 Congratulations! You won! 🎉</h5>;
         } else if (this.state.winner === AI) {
-            greeting = <h5 className="d-flex justify-content-center fade-in">The AI won! Try again!</h5>;
+            greeting = <h5 className="d-flex justify-content-center fade-in" style={{color: "darkred"}}>The AI won! Try again!</h5>;
         } else if (this.state.winner === null && isGameOver) { // this would mean the game ended in a tie
             greeting = <h5 className="d-flex justify-content-center fade-in">It's a draw! Try again!</h5>;
         }
