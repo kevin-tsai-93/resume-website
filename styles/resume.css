@@ -1,11 +1,19 @@
+strong {
+    font-weight: normal;
+}
+
+a.btn {
+    color: darkred;
+}
+
 .header {
-    height: 70vh;
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+    height: 60vh;
+    background-image: linear-gradient(to right bottom, rgba(255, 185, 87, 1), rgba(40, 180, 133, 0.8));
     position: relative;
 }
 
     .header-primary {
-        color: #fff;
+        color: black;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -15,25 +23,36 @@
 
         .header-primary-main {
             display: block;
-            font-weight: 700;
+            font-family: 'Fredoka One', cursive;
+            letter-spacing: 0.1em;
+            /* font-weight: 700; */
             animation: moveInFromLeft 1s ease-out;
         }
 
         .header-primary-sub {
             display: block;
-            font-weight: 400;
+            padding-top: 0.5em;
+            font-family: 'Sue Ellen Francisco', cursive;
+            letter-spacing: 0.1em;
+            /* font-family: 'Stint Ultra Condensed', cursive;
+            letter-spacing: 0.2em;
+            /* font-weight: 400; */
             animation: moveInFromRight 1s ease-out;
         }
 
 .about-me {
-    color: #fff;
-    background-image: linear-gradient(to right bottom, rgba(40, 180, 133, 0.8), rgba(40, 119, 180, 0.8));
+    color: black;
+    /* background-image: linear-gradient(to right bottom, rgba(102, 222, 120, .87), rgba(115, 250, 173, .98)); */
+    color: black;
     position: relative;
     padding: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
 }
     .about-me-title {
         text-align: center;
-        font-weight: 700;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 0.1em;
     }
 
     .about-me-description {
@@ -42,14 +61,17 @@
     }
 
 .contact-info {
-    color: #fff;
-    background-image: linear-gradient(to right bottom, rgba(40, 119, 180, 0.8), rgba(40, 75, 180, 0.8));
+    color: black;
+    /* background-image: linear-gradient(to right bottom, rgba(222, 210, 98, .87), rgba(250, 250, 110, .98)); */
     position: relative;
     padding: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
 }
     .contact-info-title {
         text-align: center;
-        font-weight: 700;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 0.1em;
     }
 
     .contact-info-description {
@@ -62,27 +84,36 @@
             display: block;
         }
 
+
 .projects {
-    color: #fff;
-    background-image: linear-gradient(to right bottom, rgba(40, 75, 180, 0.8), rgba(52, 40, 180, 0.8));
+    color: black;
+    /* background-image: linear-gradient(to right bottom, rgba(222, 150, 144, .87), rgba(250, 182, 163, .98)); */
     position: relative;
     padding: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
 }
     .projects-title {
         text-align: center;
-        font-weight: 700;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 0.1em;
     }
 
+    .projects-list-darkmode-title,
     .projects-list-connect4-title, 
     .projects-list-excel-title {
         font-weight: 500;
+        margin-top: 1em;
     }
 
+    .projects-list-darkmode-info-description,
     .projects-list-connect4-info-description, 
     .projects-list-excel-info-description {
         font-weight: 400;
     }
 
+    .projects-list-darkmode-info-experience,
+    .projects-list-darkmode-info-code,
     .projects-list-connect4-info-play,
     .projects-list-connect4-info-code,
     .projects-list-excel-info-video {
@@ -90,14 +121,17 @@
     }
 
 .toolkit {
-    color: #fff;
-    background-image: linear-gradient(to right bottom, rgba(52, 40, 180, 0.8), rgba(91, 40, 180, 0.8));
+    color: black;
+    /* background-image: linear-gradient(to right bottom, rgba(196, 142, 222, .87), rgba(246, 160, 250, .98)); */
     position: relative;
     padding: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
 }
     .toolkit-title {
         text-align: center;
-        font-weight: 700;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 0.1em;
     }
     
     .toolkit-list {
@@ -106,14 +140,17 @@
     }
 
 .education {
-    color: #fff;
-    background-image: linear-gradient(to right bottom, rgba(91, 40, 180, 0.8), rgba(117, 40, 180, 0.8));
+    color: black;
+    /* background-image: linear-gradient(to right bottom, rgba(118, 174, 222, .87), rgba(133, 165, 250, .98)); */
     position: relative;
     padding: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
 }
     .education-title {
         text-align: center;
-        font-weight: 700;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 0.1em;
     }
 
     .education-list {
@@ -121,15 +158,27 @@
         font-weight: 400;
     }
 
+        .education-list-degree {
+            padding-top: 0.2em;
+            padding-left: 3em;
+            padding-right: 3em;
+            display: flex;
+            justify-content: space-between;
+        }
+
 .certificates {
-    color: #fff;
-    background-image: linear-gradient(to right bottom, rgba(117, 40, 180, 0.8), rgba(143, 40, 180, 0.8));
+    color: black;
+    /* background-image: linear-gradient(to right bottom, rgba(131, 222, 190, .87), rgba(148, 250, 244, .98)); */
     position: relative;
     padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid black;
 }
     .certificates-title {
         text-align: center;
-        font-weight: 700;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 0.1em;
     }
 
     .certificates-list {
@@ -147,7 +196,7 @@
 
 .btn:hover {
     font-size: 1.5rem;
-    color: #fff;
+    color: black;
 }
     /* .btn:hover::after {
       transform: scaleX(1.4) scaleY(1.6);
@@ -156,7 +205,7 @@
 
 
 .btn-white {
-    color: #fff; 
+    color: black; 
 }
 
 @keyframes moveInFromLeft {
@@ -186,3 +235,38 @@
         transform: translate(0); 
     } 
 }
+
+@media (min-width: 544px) {  
+    .education-list-degree {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 0.2em;
+    }
+  }
+   
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) {  
+    .education-list-degree {
+        padding-left: 7em;
+        padding-right: 7em;
+        padding-top: 0.2em;
+    }
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .education-list-degree {
+        padding-left: 12em;
+        padding-right: 12em;
+        padding-top: 0.2em;
+    }
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .education-list-degree {
+        padding-left: 16em;
+        padding-right: 16em;
+        padding-top: 0.2em;
+    }
+  }

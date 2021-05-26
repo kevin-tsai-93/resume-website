@@ -193,18 +193,18 @@ class Connect4Game extends React.Component {
         // setup the display
 
         const horizontalRule = <hr style={{visibility: "hidden", marginBottom: "0"}} />;
-        const button = <button style={{outline: "none", userSelect: "none", borderRadius: "10%"}} onClick={this.handleReset}>Reset</button>;
-        let greeting = <h5 className="d-flex justify-content-center">Good luck!</h5>;
-        let board = <div className="d-flex justify-content-center"><Board squares={this.state.squares} onClick={this.handleClick} /></div>;
+        const button = <button style={{outline: "none", userSelect: "none", borderRadius: "10%", marginTop: "1em"}} onClick={this.handleReset}>Reset</button>;
+        let greeting = <h5 className="d-flex justify-content-center" style={{marginTop: "1em"}}>Good luck!</h5>;
+        let board = <div className="d-flex justify-content-center" style={{marginTop: "1em"}}><Board squares={this.state.squares} onClick={this.handleClick} /></div>;
 
         if (isGameOver) {
             board = <div className="d-flex justify-content-center"><Board squares={this.state.squares} onClick={() => {return; /* this does nothing... Disables onClick */}} /></div>;
         }
 
         if (this.state.winner === HUMAN) {
-            greeting = <h5 className="d-flex justify-content-center fade-in" style={{color: "darkgreen"}}>🎉 Congratulations! You won! 🎉</h5>;
+            greeting = <h5 className="d-flex justify-content-center fade-in" style={{color: "darkgreen", marginTop: "1em"}}>🎉 Congratulations! You won! 🎉</h5>;
         } else if (this.state.winner === AI) {
-            greeting = <h5 className="d-flex justify-content-center fade-in" style={{color: "darkred"}}>The AI won! Try again!</h5>;
+            greeting = <h5 className="d-flex justify-content-center fade-in" style={{color: "darkred", marginTop: "1em"}}>The AI won! Try again!</h5>;
         } else if (this.state.winner === null && isGameOver) { // this would mean the game ended in a tie
             greeting = <h5 className="d-flex justify-content-center fade-in">It's a draw! Try again!</h5>;
         }
@@ -220,7 +220,7 @@ class Connect4Game extends React.Component {
 
         return (
             <div className="container">
-                <h4 className="d-flex justify-content-center">Welcome to Connect 4!</h4>
+                <h4 className="d-flex justify-content-center" style={{marginTop: "1em"}}>Welcome to Connect 4!</h4>
                 {display}
             </div>
         );

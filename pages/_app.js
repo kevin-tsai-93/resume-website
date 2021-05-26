@@ -3,6 +3,7 @@ import '../styles/resume.css';
 import '../styles/responsive-font.css';
 import '../styles/square.css';
 import '../styles/connect4game.css';
+import '../styles/darkmode.css';
 import NavigationBar from "../components/navbar/NavigationBar";
 // import App from 'next/app';
 
