@@ -63,7 +63,7 @@ const Resume = () => {
                                         <Link href="/darkmode"><a className="btn">Experience dark mode</a></Link>
                                     </div>
                                     <div className="projects-list-darkmode-info-code">
-                                        <a className="btn" href="https://github.com/kevin-tsai-93/resume-website/tree/main/components/portfolio/connect_4_game" target="_blank">See code</a>
+                                        <a className="btn" href="https://github.com/kevin-tsai-93/resume-website/tree/main/components/portfolio/dark_mode" target="_blank">See code</a>
                                     </div>
                                 </div>
                             </div>
