@@ -1,1 +1,1 @@
-These files constitute this website, which is my resume brought to life within a web browser. It was built using the React framework (or library, depending on who you ask) and hosted on Vercel, powered by Next.
+These files constitute this website, which is my resume brought to life within a web browser. It was built using the React framework (or library, depending on whom you ask) and hosted on Vercel, powered by Next.
