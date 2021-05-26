@@ -28,7 +28,7 @@ const DarkModeApp = () => {
                     <p>
                         How does it feel to read these words using dark mode?
                         It feels great... right?
-                        The pairing between the dark background color and the warm font color fuse together to
+                        The pairing between the dark background color and the warm font color fuses together to
                         produce a visually pleasant, warm, and comfortable reading experience.
                         Blue light has been reduced significantly. So, you won't have to worry about harming your eyes or
                         stunting your melatonin production at night.
