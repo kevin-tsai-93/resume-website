@@ -247,26 +247,27 @@ a.btn {
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
   @media (min-width: 768px) {  
     .education-list-degree {
-        padding-left: 7em;
-        padding-right: 7em;
-        padding-top: 0.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.3em;
+        padding-bottom: 0.5em;
     }
   }
    
   /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) { 
+  /* @media (min-width: 992px) { 
     .education-list-degree {
-        padding-left: 12em;
-        padding-right: 12em;
-        padding-top: 0.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
     }
-  }
+  } */
    
   /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {  
+  /* @media (min-width: 1200px) {  
     .education-list-degree {
         padding-left: 16em;
         padding-right: 16em;
         padding-top: 0.2em;
     }
-  }
+  } */
