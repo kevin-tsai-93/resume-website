@@ -11,11 +11,7 @@ const Resume = () => {
                 <meta charset="utf-8"/>
                 <title>Kevin Tsai's Resume Website</title>
                 <meta name="author" content="Kevin Tsai"/>
-                <meta name="description" content="This is Kevin Tsai's resume brought to life within a web browser. It was built using the React framework (or library, depending on whom you ask) and hosted on Vercel, powered by Next."/>
-
-                <meta property='og:title' content="Kevin Tsai's Resume Website"/>
-                <meta property='og:description' content="Hi! This is Kevin Tsai's resume website."/>
-                <meta property='og:url' content="https://kevin-tsai-resume-website.vercel.app/"/>
+                <meta name="description" content="This is Kevin Tsai's resume brought to life within the web browser. It was built using the React framework (or library, depending on whom you ask) and hosted on Vercel, powered by Next."/>
 
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Stint+Ultra+Condensed&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet"/>
