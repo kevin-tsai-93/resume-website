@@ -1,8 +1,6 @@
 import React from 'react';
 import Switch from '@material-ui/core/Switch';
 
-import Head from "next/head";
-
 const DarkModeApp = () => {
     const [state, setState] = React.useState({
         darkMode: false,
@@ -52,11 +50,6 @@ const DarkModeApp = () => {
 
     return (
         <>
-            <Head>
-                <title>Dark Mode</title>
-                <meta name="author" content="Kevin Tsai"/>
-                <meta name="description" content="This Dark Mode app demonstrates the visual difference between a light theme and a dark theme."/>
-            </Head>
             <div className="darkmodeapp" style={{backgroundColor: "grey"}}>
                 <div className="reader">
                     <div className="reader__screen" style={DarkModeStyles}>
