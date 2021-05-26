@@ -14,7 +14,6 @@ const Resume = () => {
                 <meta name="description" content="This is Kevin Tsai's resume brought to life within a web browser. It was built using the React framework (or library, depending on whom you ask) and hosted on Vercel, powered by Next."/>
 
                 <meta property='og:title' content="Kevin Tsai's Resume Website"/>
-                <meta property='og:image' content='https://github.com/kevin-tsai-93/resume-website/blob/main/images/banner.png'/>
                 <meta property='og:description' content="Hi! This is Kevin Tsai's resume website."/>
                 <meta property='og:url' content="https://kevin-tsai-resume-website.vercel.app/"/>
 
