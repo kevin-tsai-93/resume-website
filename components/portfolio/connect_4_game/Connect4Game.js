@@ -4,6 +4,8 @@ import minimax from './connect4_helper_files/minimax';
 import deepCopy2DArray from './connect4_helper_files/deepCopy2DArray';
 import new2DArray from './connect4_helper_files/new2DArray';
 
+import Head from "next/head";
+
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 
@@ -219,10 +221,18 @@ class Connect4Game extends React.Component {
                         </>;
 
         return (
-            <div className="container">
-                <h4 className="d-flex justify-content-center" style={{marginTop: "1em"}}>Welcome to Connect 4!</h4>
-                {display}
-            </div>
+            <>
+                <Head>
+                    <title>Connect 4</title>
+                    <meta name="author" content="Kevin Tsai"/>
+                    <meta name="description" content="Play Connect 4 against an AI that was built using the mini-max algorithm with alpha-beta pruning."/>
+                </Head>
+                
+                <div className="container">
+                    <h4 className="d-flex justify-content-center" style={{marginTop: "1em"}}>Welcome to Connect 4!</h4>
+                    {display}
+                </div>
+            </>
         );
     };
 };

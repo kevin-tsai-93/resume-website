@@ -1,11 +1,7 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
-import { purple } from '@material-ui/core/colors';
-import FormGroup from '@material-ui/core/FormGroup';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
+
+import Head from "next/head";
 
 const DarkModeApp = () => {
     const [state, setState] = React.useState({
@@ -55,25 +51,31 @@ const DarkModeApp = () => {
     }
 
     return (
-        <div className="darkmodeapp" style={{backgroundColor: "grey"}}>
-            <div className="reader">
-                <div className="reader__screen" style={DarkModeStyles}>
-                    <div className="reader__toggler">
-                        <Switch
-                            checked={state.darkMode}
-                            onChange={handleChange}
-                            name="darkMode"
-                            color="secondary"
-                            inputProps={{ 'aria-label': 'dark mode toggler' }}
-                        />
+        <>
+            <Head>
+                <title>Dark Mode</title>
+                <meta name="author" content="Kevin Tsai"/>
+                <meta name="description" content="This Dark Mode app demonstrates the visual difference between a light theme and a dark theme."/>
+            </Head>
+            <div className="darkmodeapp" style={{backgroundColor: "grey"}}>
+                <div className="reader">
+                    <div className="reader__screen" style={DarkModeStyles}>
+                        <div className="reader__toggler">
+                            <Switch
+                                checked={state.darkMode}
+                                onChange={handleChange}
+                                name="darkMode"
+                                color="secondary"
+                                inputProps={{ 'aria-label': 'dark mode toggler' }}
+                            />
+                        </div>
+                        <article className="reader__text">
+                            {words}
+                        </article>
                     </div>
-                    <article className="reader__text">
-                        {words}
-                    </article>
                 </div>
             </div>
-        </div>
-
+        </>
     )
 }
 

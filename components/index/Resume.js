@@ -15,7 +15,7 @@ const Resume = () => {
 
                 <meta property='og:title' content="Kevin Tsai's Resume Website"/>
                 <meta property='og:image' content='https://github.com/kevin-tsai-93/resume-website/blob/main/images/banner.png'/>
-                <meta property='og:description' content="Hi! This is my resume website. I'm Kevin Tsai. Your friendly software engineer and web developer, who specializes in the front-end. I enjoy building content on the web and solving problems through code. I also hold a math-heavy and data-analytical background, having obtained both an M.S. and B.S. in Statistics. Hope to hear from you soon!"/>
+                <meta property='og:description' content="Hi! This is Kevin Tsai's resume website."/>
                 <meta property='og:url' content="https://kevin-tsai-resume-website.vercel.app/"/>
 
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
