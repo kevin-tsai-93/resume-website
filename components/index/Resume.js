@@ -7,6 +7,17 @@ const Resume = () => {
     return (
         <div>
             <Head>
+                <html lang="en-US"/>
+                <meta charset="utf-8"/>
+                <title>Kevin Tsai's Resume Website</title>
+                <meta name="author" content="Kevin Tsai"/>
+                <meta name="description" content="This is Kevin Tsai's resume brought to life within a web browser. It was built using the React framework (or library, depending on whom you ask) and hosted on Vercel, powered by Next."/>
+
+                <meta property='og:title' content="Kevin Tsai's Resume Website"/>
+                <meta property='og:image' content='../../images/banner.png'/>
+                <meta property='og:description' content="Hi! This is my resume website. I'm Kevin Tsai. Your friendly software engineer and web developer, who specializes in the front-end. I enjoy building content on the web and solving problems through code. I also hold a math-heavy and data-analytical background, having obtained both an M.S. and B.S. in Statistics. Hope to hear from you soon!"/>
+                <meta property='og:url' content="https://kevin-tsai-resume-website.vercel.app/"/>
+
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Stint+Ultra+Condensed&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet"/>
             </Head>
