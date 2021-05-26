@@ -73,7 +73,7 @@ const Resume = () => {
                                     <div className="projects-list-darkmode-info">
                                         <div className="projects-list-darkmode-info-description">
                                             <p>
-                                                Are you aware of how important a dark mode is? Every application should have a dark mode. This is not a joke! The screens from electronic devices can emit
+                                                Are you aware of the importance of dark mode? Every application should have a dark mode. Not joking! The screens from electronic devices can emit
                                                 enormous levels of blue light that can harm your eyes if you stare at them for extended periods of time.
                                                 Check out my app to experience the huge difference that a dark mode can make.
                                             </p>

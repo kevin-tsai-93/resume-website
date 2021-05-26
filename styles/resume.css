@@ -160,6 +160,7 @@ a.btn {
 
         .education-list-degree {
             padding-top: 0.2em;
+            padding-bottom: 0.2em;
             padding-left: 3em;
             padding-right: 3em;
             display: flex;

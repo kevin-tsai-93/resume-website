@@ -21,15 +21,15 @@ const DarkModeApp = () => {
 
     if (state.darkMode) {
         DarkModeStyles = {
-            backgroundColor: "rgba(19, 19, 19, 0.88)",
-            color: "rgba(245, 228, 186, 0.96)"
+            backgroundColor: "rgba(35, 35, 35, 1)",
+            color: "rgba(202, 202, 202, 1)"
         };
         words = <>
                     <p>
                         How does it feel to read these words using dark mode?
                         It feels great... right?
                         The pairing between the dark background color and the warm font color fuses together to
-                        produce a visually pleasant, warm, and comfortable reading experience.
+                        produce a visually pleasant and comfortable reading experience.
                         Blue light has been reduced significantly. So, you won't have to worry about harming your eyes or
                         stunting your melatonin production at night.
                         You can now sleep well at night!
@@ -45,12 +45,9 @@ const DarkModeApp = () => {
                     <p>
                         If you don't have any blue light reducing software installed onto your device,
                         chances are... you're probably reading these words with a black font on a white background.
-                        If you were to stare at these color combinations in real life... for instance, if you were to
-                        read a letter written in black pen on white paper, you most likely wouldn't think there is any harm done to your eyes.
-                        And you're probably right! However, the displays on electronic devices with a white background emit light rather differently than natural light being reflected off
-                        the surface of a piece of white paper. White light emitted from an electronic device exposes you to an enormous amount of blue
-                        light, and if you are exposed to this kind of light for extended periods of time, you may end up harming your eyes and even your body, especially at night.
-                        When you stare at blue light at night, you stunt your body's natural production of melatonin, which makes it harder for you to sleep well at night.
+                        Default displays on electronic devices with a white background tend to emit light rather strongly and expose you to an enormous amount of blue
+                        light. If you are exposed to this kind of light for extended periods of time, you may end up straining your eyes and even harming your body, especially at night.
+                        When you stare at blue light at night, you stunt your body's natural production of melatonin, which makes it harder for you to sleep well.
                         So... what's the solution? Install a "Dark Mode" into every application. This will significantly reduce the amount of blue light exposure emitted from electronic devices, which
                         will save the health of your eyes! Slide the bar at the top to experience the pleasant reading experience of Dark Mode.
                     </p>
