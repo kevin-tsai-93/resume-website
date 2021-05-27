@@ -1,5 +1,5 @@
 .square {
-    background-color: rgba(6, 53, 71, 0.207);
+    background-color: white;
     border-radius: 50%;
     height: 10vh;
     user-select: none;
@@ -21,7 +21,7 @@
 } */
 
 .square-human-filled {
-    background-color: rgba(255, 0, 0, 0.611);
+    background-color: rgba(255, 2, 2, 0.729);
 
     animation-name: humanFill;
     animation-duration: 1s;
@@ -30,7 +30,7 @@
 
 @keyframes humanFill {
     0% {
-        background-color: rgba(6, 53, 71, 0.207);
+        background-color: white;
         opacity: 1;
     }
     100% {
@@ -40,7 +40,7 @@
 
 
 .square-ai-filled {
-    background-color: rgba(0, 0, 0, 0.755);
+    background-color: rgba(249, 249, 2, 0.886);
 
     animation-name: aiFill;
     animation-duration: 1.5s;
@@ -49,14 +49,15 @@
 
 @keyframes aiFill {
     0% {
-        background-color: rgba(6, 53, 71, 0.207);
+        background-color: white;
         opacity: 1;
     }
     50% {
-        background-color: rgba(6, 53, 71, 0.207);
+        background-color: rgba(144, 144, 49, 0.886);
         opacity: 1;
     }
     100% {
+        background-color: rgba(249, 249, 2, 0.886);
         opacity: 1;
     }
 }

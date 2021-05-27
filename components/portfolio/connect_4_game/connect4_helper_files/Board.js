@@ -27,7 +27,7 @@ class Board extends React.Component {
 
         return (
             <div className="table-responsive">
-                <table className="table table-borderless">
+                <table className="table table-borderless board-bg-green">
                     <tbody>
                         {display}
                     </tbody>
