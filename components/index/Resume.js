@@ -19,7 +19,7 @@ const Resume = () => {
                 <Col>
                     <section className="about-me">
                         <h4 className="about-me-title">About Me</h4>
-                        <p className="about-me-description">Hi! I'm Kevin Tsai. Your friendly software engineer and web developer, who specializes in the front-end. I enjoy building content on the web and solving problems through code. 
+                        <p className="about-me-description">Hi! I'm Kevin Tsai. Your friendly software engineer and web developer, who specializes in the front-end. I enjoy building content on the web and solving problems with code. 
                             I also hold a math-heavy and data-analytical background, having obtained both an M.S. and B.S. in Statistics. 
                             Hope to hear from you soon!</p>
                     </section>                        
