@@ -10,14 +10,13 @@ const DarkModeApp = () => {
     setState({ ...state, [event.target.name]: event.target.checked });
     };
 
-    let DarkModeStyles = {};
+    let colorTheme;
+    const DARK_MODE = "darkmode";
+    const LIGHT_MODE = "lightmode";
     let words;
 
     if (state.darkMode) {
-        DarkModeStyles = {
-            backgroundColor: "rgba(35, 35, 35, 1)",
-            color: "rgba(202, 202, 202, 1)"
-        };
+        colorTheme = DARK_MODE;
         words = <>
                     <p>
                         How does it feel to read these words using dark mode?
@@ -31,10 +30,7 @@ const DarkModeApp = () => {
                     </p>
                 </>;
     } else {
-        DarkModeStyles = {
-            backgroundColor: "white",
-            color: "black"
-        };
+        colorTheme = LIGHT_MODE;
         words = <>
                     <p>
                         If you don't have any blue light reducing software installed onto your device,
@@ -52,7 +48,7 @@ const DarkModeApp = () => {
         <>
             <div className="darkmodeapp" style={{backgroundColor: "grey"}}>
                 <div className="reader">
-                    <div className="reader__screen" style={DarkModeStyles}>
+                    <div className={"reader__screen " + colorTheme}>
                         <div className="reader__toggler">
                             <Switch
                                 checked={state.darkMode}

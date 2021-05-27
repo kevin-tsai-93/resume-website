@@ -1,3 +1,24 @@
+/*
+    using !important in general is not a best practice;
+    however, for this application, i have noticed that
+    web browsers may override certain colors based on 
+    browser settings, such as a predefined dark mode setting
+    on samsung internet. this blocks the user from seeing the change
+    between a light mode and a dark mode. to prevent this, i used !important
+    on the background-color and the color properties.
+ */
+
+.darkmode {
+    background-color: rgba(35, 35, 35, 1) !important;
+    color: rgba(202, 202, 202, 1) !important;
+}
+
+.lightmode {
+    background-color: white !important;
+    color: black !important;
+}
+
+
 .reader {
     display: inline-block;
     background-color: black;
