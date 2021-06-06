@@ -7,22 +7,30 @@ a.btn {
 }
 
 .header {
-    height: 60vh;
+    /* height: 60vh; */
+    min-height: 60vh;
     background-image: linear-gradient(to right bottom, rgba(255, 185, 87, 1), rgba(40, 180, 133, 0.8));
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
     .header-primary {
         color: black;
-        position: absolute;
+        /* position: absolute;
         top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 50%; */
+        /* transform: translate(-50%, -50%); */
         text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
     }
 
         .header-primary-main {
-            display: block;
+            /* display: block; */
             font-family: 'Fredoka One', cursive;
             letter-spacing: 0.1em;
             /* font-weight: 700; */
@@ -30,7 +38,7 @@ a.btn {
         }
 
         .header-primary-sub {
-            display: block;
+            /* display: block; */
             padding-top: 0.5em;
             font-family: 'Sue Ellen Francisco', cursive;
             letter-spacing: 0.1em;
