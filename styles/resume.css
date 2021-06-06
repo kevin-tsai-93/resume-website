@@ -128,7 +128,7 @@ a.btn {
         text-align: center;
     }
 
-.toolkit {
+.skills {
     color: black;
     /* background-image: linear-gradient(to right bottom, rgba(196, 142, 222, .87), rgba(246, 160, 250, .98)); */
     position: relative;
@@ -136,13 +136,13 @@ a.btn {
     margin-top: 1em;
     border: 1px solid black;
 }
-    .toolkit-title {
+    .skills-title {
         text-align: center;
         font-family: 'Fredoka One', cursive;
         letter-spacing: 0.1em;
     }
     
-    .toolkit-list {
+    .skills-list {
         text-align: center;
         font-weight: 400;
     }

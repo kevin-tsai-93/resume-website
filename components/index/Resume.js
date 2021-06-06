@@ -38,12 +38,12 @@ const Resume = () => {
                     </section>
                 </Col>
                 <Col lg={4} md={6} className="my-auto">
-                    <section className="toolkit">
-                        <h4 className="toolkit-title">Toolkit</h4>
-                        <div className="toolkit-list">
-                            <div className="toolkit-list-tool"><strong>HTML, CSS, JavaScript</strong></div>
-                            <div className="toolkit-list-tool">SCSS, SASS, BEM, Bootstrap, Semantic UI, Material-UI</div>
-                            <div className="toolkit-list-tool">MongoDB, Express, React, Node</div>
+                    <section className="skills">
+                        <h4 className="skills-title">Skills</h4>
+                        <div className="skills-list">
+                            <div className="skills-list-tool"><strong>HTML, CSS, JavaScript</strong></div>
+                            <div className="skills-list-tool">SCSS, SASS, BEM, Bootstrap, Semantic UI, Material-UI</div>
+                            <div className="skills-list-tool">MongoDB, Express, React, Node</div>
                         </div>
                     </section>
                 </Col>
