@@ -3,7 +3,6 @@
     border-radius: 50%;
     height: 10vh;
     user-select: none;
-
     animation: fadeIn 2s ease;
 }
 
@@ -21,11 +20,10 @@
 } */
 
 .square-human-filled {
-    background-color: rgba(255, 2, 2, 0.729);
-
+    background-color: darkred;
     animation-name: humanFill;
-    animation-duration: 1s;
-    animation-timing-function: ease;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
 }
 
 @keyframes humanFill {
@@ -40,10 +38,10 @@
 
 
 .square-ai-filled {
-    background-color: rgba(249, 249, 2, 0.886);
+    background-color: black;
     animation-name: aiFill;
-    animation-duration: 1.25s;
-    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
 @keyframes aiFill {
@@ -52,10 +50,11 @@
         opacity: 1;
     }
     50% {
-        background-color: rgba(218, 218, 24, 0.886);
+        background-color: gray;
         opacity: 1;
     }
     100% {
+        background-color: black;
         opacity: 1;
     }
 }
